@@ -79,6 +79,135 @@ background-color: #79AC78;
     display: none;
 }
 
+.section1 {
+    display: flex;
+    gap: 4rem;
+}
+.actu {
+    flex: 1;
+    width: 841.64px;
+    height: 622px;
+    margin-top: 30px;
+    margin-left: 64px;
+    
+}
+.head {
+    position: relative;
+    overflow: hidden;
+    color: #ffffff;
+    border-radius: 20px;
+    width: 841.64px;
+    height: 622px;
+    display: flex;
+}
+.head img {
+    width: 840.64px;
+    border-radius: 20px;
+    height: 622px;
+    object-fit: cover;
+}
+.gradient {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(10.82deg, rgba(0, 0, 0, 0.95) 1.55%, rgba(0, 0, 0, 0) 51.18%);
+
+}
+.head .side{
+    position: absolute;
+    width: 15px;
+    height: 142px;
+    margin-top: 441px;
+    margin-left: 35px;
+    background-color: var(--primary-color);
+
+}
+.head .text {
+    position: absolute;
+    width: 674px;
+    height: 101px;
+    margin-top: 433px;
+    margin-left: 80px;
+    font-family: var(--font-family2);
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.head .text b {
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+.head .text .date {
+    font-size: 20px;
+    line-height: 26px;
+}
+.side1 {
+    flex: 1;
+    width: 50vw;
+    height: 50vh;
+    margin-top: 30px;
+    padding-bottom: 5rem;
+}
+.side1 .title {
+    display: flex;
+    font-family: var(--font-family2);
+}
+.side1 .title .sign {
+    background-color: var(--primary-color);
+    width: 15px;
+    height: 5vh;
+    margin-top: 0;
+    margin-left: 20px;
+}
+.side1 .title p {
+    width: 50vw;
+    height: 2.2vh;
+    margin-top: 8px;
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 26px;
+}
+.primary {
+    margin-right: 25px;
+    display: flex;
+    gap: 2rem;
+    font-family: var(--font-family2);
+    padding-bottom: .6rem;
+}
+.primary img {
+    flex: 1;
+    width: 100vw;
+    height: 17rem;
+    margin-top: 18px;
+    margin-left: 20px;
+    border-radius: 10px;
+
+}
+.primary .txt {
+    flex: 2;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.primary .txt h1 {
+    width: 14vw;
+    height: 10vh;
+    margin-top: 18px;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 3rem;
+    padding-right: 25px;
+    font-family: var(--font-family2);
+}
+.primary .txt p {
+    width: 15vw;
+    font-weight: 400;
+    font-size: 1.6rem;
+    font-family: var(--font-family3);
+}
+
 @media only screen and (width <= 431px){
     body{
         width: 100vw;
@@ -97,6 +226,136 @@ background-color: #79AC78;
     height: 4rem;
     display: flex;
   }
+
+  .section1{
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    margin-top: .5rem;
+    justify-content: center;
+  }
+  .actu {
+    width: 95%;
+    height: 50%;
+    margin-top: 0;
+    border-radius: 0;
+    margin-left: 1rem;
+    margin-bottom: 5rem;    
+}
+  .head {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0;
+}
+
+.head img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0;
+}
+.head .side{
+    position: absolute;
+    width: 15px;
+    height: 15vh;
+    margin-top: 18rem;
+    margin-left: 1rem;
+    background-color: var(--primary-color);
+}
+
+.head .text {
+    position: absolute;
+    width: 90vw;
+    height: 100vh;
+    margin-top: 17.5rem;
+    margin-left: 3rem;
+    font-family: var(--font-family2);
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.head .text b {
+    font-weight: 600;
+    font-size: 2rem;
+}
+.head .text .date {
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+
+.side1 {
+    width: 90%;
+    height: 100%;
+    margin-top: 1rem;
+    padding-bottom: 2.5rem;
+}
+.side1 .title {
+    display: flex;
+    font-family: var(--font-family2);
+    padding-bottom: 2rem;
+}
+.side1 .title .sign {
+    background-color: var(--primary-color);
+    width: 1.5rem;
+    height: 3.5rem;
+    margin-top: 0;
+    margin-left: 2rem;
+}
+.side1 .title p {
+    width: 100vw;
+    height: 2.2vh;
+    margin-top: .5rem;
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 1.9rem;
+    line-height: 26px;
+}
+.primary {
+    margin-right: 0;
+    width: 100%;
+    display: flex;
+    gap: 3rem;
+    font-family: var(--font-family2);
+    padding-bottom: 1.5rem;
+}
+.primary img {
+    flex: 1;
+    width: 10vw;
+    height: 25vh;
+    margin-top: 18px;
+    margin-left: 1.3rem;
+    border-radius: 10px;
+
+}
+.primary .txt {
+    flex: 1;
+    width: 5vw;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.primary .txt h1 {
+    width: 40vw;
+    height: 10vh;
+    margin-top: 18px;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+    padding-right: 25px;
+    font-family: var(--font-family2);
+}
+.primary .txt p {
+    width: 40vw;
+    font-weight: 400;
+    font-size: 1.1rem;
+    font-family: var(--font-family3);
+}
+hr{
+    border: solid .1rem;
+    width: 39rem;
+    margin-left: 1.5rem;
+}
 
 }
     
