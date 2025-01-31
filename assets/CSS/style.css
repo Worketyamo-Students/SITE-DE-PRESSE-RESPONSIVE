@@ -207,6 +207,24 @@ background-color: #79AC78;
     font-size: 1.6rem;
     font-family: var(--font-family3);
 }
+.images{
+    display: flex;
+    padding: 4.2rem;
+   justify-content:space-between ;
+}
+.img{
+    width:28.5rem;
+    height:30rem;
+}
+h4{
+    color: var(--primary-color);
+    padding: 1rem;
+}
+.images .vincent p{
+    color: var(--secondary-color);
+    padding-left: 1rem;
+    font-size: 1.5rem;
+}
 
 @media only screen and (width <= 431px){
     body{
@@ -355,6 +373,32 @@ hr{
     border: solid .1rem;
     width: 39rem;
     margin-left: 1.5rem;
+}
+.images{
+    flex: 1;
+   padding: 0;
+   margin-right: 20rem;
+}
+.img{
+    border-radius: 0;
+    width: 35rem;
+    height: 30rem;
+}
+.vincent{
+    padding-left: -2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: left;
+}
+.slider{
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding: 10px;
+}
+.h4{
+    padding-right: 2rem;
 }
 
 }
