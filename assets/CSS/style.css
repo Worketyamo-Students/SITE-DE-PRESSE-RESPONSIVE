@@ -439,8 +439,10 @@ font-family: var(--font-family1);
 }
 .femme_africaine{
 display: flex;
-padding: 8rem;
-gap: 18rem;
+padding: 4rem;
+gap: 10rem;
+font-family: var(--font-family2);
+
 
 }
 .img1_femme_africaine{
@@ -952,7 +954,7 @@ hr{
     padding-left: 1rem;
 }.femme_africaine{
     gap:5rem;
-    padding: 0;
+    padding: 3rem;
 }
 
 .footer {
