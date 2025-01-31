@@ -350,6 +350,41 @@ font-family: var(--font-family1);
     line-height: 31.2px;
 }
 
+.comment{
+    display: flex;
+    padding: 4.4rem;
+    margin-top: 4rem;
+    gap: 5rem;
+}
+.comment_texte{
+    flex: 1;
+}
+.comment_images{
+    flex: 1;
+}
+.c_comment{
+    font-size: 4rem;
+    color: #79AC78;
+    margin-top: 6rem;
+
+}
+.img_comment{
+    width: 681px;
+    height: 471px;
+}
+.lorem{
+    margin-top: 5rem;
+    font-size: 2rem;
+}
+.canal_international{
+    font-size: 2rem;
+    margin-top: 4rem;
+}
+.icon-image{
+    width: 20rem;
+    height: 15rem;
+}
+
 @media only screen and (width <= 431px){
     body{
         width: 100vw;
@@ -695,4 +730,30 @@ hr{
     text-align: left;
     line-height: 2.5rem;
 }
+.comment{
+    flex-direction: column-reverse;
+    gap: 1rem;
+    padding-left: 1.3rem;
+}
+.img_comment{
+    width: 38rem;
+    height: 25rem;
+}
+.icon-image{
+    height: 5rem;
+}
+.canal_international{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    font-weight: 400;
+}
+.lorem{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.c_comment{
+    margin-top: 1rem;
+}
+
 }    
