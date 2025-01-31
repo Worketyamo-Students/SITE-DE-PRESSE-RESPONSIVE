@@ -429,6 +429,24 @@ font-family: var(--font-family1);
     position: relative;
     object-fit: cover;
 }
+.femme_africaine{
+display: flex;
+padding: 8rem;
+gap: 10rem;
+
+}
+.img1_femme_africaine{
+    flex: ;
+}
+.titre_images{
+    font-size: 1.1rem;
+    color: var(--color-button);
+}
+.paragraphe_comment{
+    font-size: 1.5rem;
+}
+
+
 
 @media only screen and (width <= 431px){
     body{
@@ -854,5 +872,18 @@ hr{
     height: 78%;
     object-fit: cover;
 }
-
+.slider_images{
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding: 10px;
+}
+.img2_femme_africaine{
+    width: 20rem;
+    height: 20rem;
+    padding-left: 1rem;
+}.femme_africaine{
+    gap:5rem;
+    padding: 0;
+}
 }    
