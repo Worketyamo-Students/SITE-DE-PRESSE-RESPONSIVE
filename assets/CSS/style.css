@@ -440,7 +440,7 @@ font-family: var(--font-family1);
 .femme_africaine{
 display: flex;
 padding: 4rem;
-gap: 10rem;
+gap: 12rem;
 font-family: var(--font-family2);
 
 
